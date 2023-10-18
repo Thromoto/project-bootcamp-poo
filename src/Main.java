@@ -1,3 +1,4 @@
+import br.com.projeto.dominio.Conteudo;
 import br.com.projeto.dominio.Curso;
 import br.com.projeto.dominio.Mentoria;
 
@@ -8,12 +9,12 @@ public class Main {
         Curso curso1 = new Curso();
         curso1.setTitulo("curso java");
         curso1.setDescricao("descrição do curso java");
-        curso1.setCagarHoraria(8);
+        curso1.setCargaHoraria(8);
 
         Curso curso2 = new Curso();
         curso2.setTitulo("curso js");
         curso2.setDescricao("descrição do curso js");
-        curso2.setCagarHoraria(4);
+        curso2.setCargaHoraria(4);
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria de java");
